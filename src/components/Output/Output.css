@@ -1,0 +1,12 @@
+.output {
+  width: 100%;
+  padding: 40px;
+  background: #3c4773;
+  border-radius: 4px;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  color: #fff;
+}
+
+.output p {
+  line-height: 1.8;
+}

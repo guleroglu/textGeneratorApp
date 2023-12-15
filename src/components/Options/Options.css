@@ -1,0 +1,57 @@
+
+.options {
+  width: 100%;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+
+.options .wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.options .wrapper .optionsContainer {
+  width: 100%;
+  max-width: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options .wrapper .optionsContainer p {
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 1.2px;
+}
+
+.options .wrapper .optionsContainer input,
+.options .wrapper .optionsContainer select {
+  background: #3c4773;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  width: 180px;
+}
+
+.options .wrapper .optionsContainer select {
+  appearance: none;
+}
+
+.options .wrapper .copy button {
+  border: none;
+  outline: none;
+  width: 164px;
+  background: #3c4773;
+  color: #fff;
+  padding: 13px 0;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 4px;
+}
